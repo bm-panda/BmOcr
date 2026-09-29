@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 虚拟环境（由 uv / 不忙脚本盒子管理）
+.venv/
+venv/
+
+# PyCharm
+.idea/
+
+# 模型（由不忙脚本盒子统一下载，不随脚本分发）
+src/rapid_formula_self/models/
+
+# 脚本运行产物（识别结果默认写在源图同目录）
+*_ocr.md
+*_ocr.txt
+*_ocr.docx
+*_ocr.json
+*_ocr.xlsx
+*_ocr_boxes.png

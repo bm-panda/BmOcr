@@ -1,0 +1,23 @@
+[project]
+name = "bm-ocr"
+version = "2.6.0"
+description = "离线OCR 文字识别工具 — 不忙脚本盒子批量识别（params_form/定时任务/节点联动）"
+requires-python = ">=3.10"
+dependencies = [
+    "rapidocr>=3.9.0",
+    "rapid-layout",
+    "rapid-table",
+    "onnxruntime>=1.20.0,<1.21.0",
+    "opencv-python",
+    "numpy",
+    "python-docx",
+    "openpyxl",
+    "latex2mathml",
+    "mathml2omml",
+    # 公式识别（PP-FormulaNet_plus-M）推理依赖；推理代码已 vendor 到 src/
+    "omegaconf",
+    "tokenizers",
+    "colorlog",
+    "tqdm",
+    "ftfy",
+]
