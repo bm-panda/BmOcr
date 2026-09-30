@@ -2,9 +2,9 @@
 
 [bmscriptsbox.info]
 id = "e8a3c1d0-6b4f-4a7e-9c2d-5f1e8b3a7d0c"
-name = "离线OCR"
+name = "不忙OCR"
 desc = "离线OCR文字识别脚本 | 基于RapidOCR(PP-OCRv6)+PP-DocLayoutV3版面分析+RapidTable表格重建+PP-FormulaNet_plus-M公式识别,支持图片批量识别、标题/段落/表格/图片/公式结构还原、并行处理、检测框可视化,导出Markdown/Word/TXT/JSON/Excel,支持定时任务与节点联动,模型由不忙脚本盒子统一下载"
-version = "2.6.0"
+version = "2.7.0"
 icon = "./imgs/ocr.png"
 
 [bmscriptsbox.runtime]

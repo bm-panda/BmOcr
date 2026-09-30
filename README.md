@@ -1,4 +1,4 @@
-# BmOCR(离线OCR)
+# BmOCR(不忙OCR)
 
 > 基于 RapidOCR (PP-OCRv6) 文字识别 + PP-DocLayoutV3 版面分析 + RapidTable 表格重建 + PP-FormulaNet_plus-M 公式识别的离线图片文字识别工具。支持批量识别、版面结构还原（标题/正文/表格/图片/公式）、检测框可视化，一键导出 Markdown / Word / TXT / JSON / Excel。AI 模型由「不忙脚本盒子」统一下载管理，脚本本身不含模型。
 
